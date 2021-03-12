@@ -16,12 +16,18 @@ namespace fans
 
   public class FA1
   {
-    
+    public bool? Run(IEnumerable<char> s)
+    {
+      return false;
+    }
   }
 
   public class FA2
   {
-    
+    public bool? Run(IEnumerable<char> s)
+    {
+      return false;
+    }
   }
 
   class Program
