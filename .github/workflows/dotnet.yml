@@ -1,13 +1,11 @@
 name: .NET
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+
+on: [push]
+
 
 jobs:
-  build:
+ build:
 
     runs-on: ubuntu-latest
 
